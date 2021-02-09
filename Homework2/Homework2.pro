@@ -5,3 +5,7 @@ CONFIG -= qt
 
 SOURCES += \
         main.c
+
+DISTFILES += \
+    ../Debug/movies.txt \
+    archivo.obj
