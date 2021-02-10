@@ -1,6 +1,6 @@
+
 #include <stdio.h>
 #include <stdlib.h>
-
 
 #define value 10000
 
@@ -76,7 +76,7 @@ void sillas_print(struct movies movie,int boletas);
 int interpreter_col (char col);
 int interpreter_fil (int fil);
 double calculo_bill (int fil);
-void accounting (struct movies movie, double total);
+void accounting (double total);
 void read_sillas (char path[]);
 void write_sillas (char path[]);
 
@@ -338,6 +338,8 @@ void sillas_print(struct movies movie, int boletas){
     printf("El valor total de las boletas es: %0.f\n",sub);
     puts("Gracias por su compra, regresa pronto :)");
     puts("/////////////////////////////////////////");
+    putchar('\n');
+    main();
 
 }
 
@@ -420,7 +422,7 @@ double calculo_bill (int fil){
     return total;
 }
 
-void accounting (struct movies movie, double total){
+void accounting (double total){
     puts("bienvenido a la contabilización");
     printf("ventas totales: %f", total);
 }
