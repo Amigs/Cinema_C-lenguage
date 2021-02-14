@@ -1,5 +1,5 @@
 # Homework2
-Valentina me terminó! :(
+
 
 Cinema (sales-accounting)
 
