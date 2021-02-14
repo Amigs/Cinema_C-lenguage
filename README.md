@@ -1,4 +1,6 @@
 # Homework2
+Valentina me terminó! :(
+
 Cinema (sales-accounting)
 
 Se requiere diseñar y poner en marcha un programa que maneje la venta y asignación de
